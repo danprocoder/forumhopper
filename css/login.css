@@ -1,0 +1,20 @@
+form#right > div {
+    margin-top: 10px;
+}
+
+form#right > div .textfield {
+    margin-top: 3px;
+}
+
+form#right .textfield {
+    width: 100%;
+}
+
+form#right #error_p {
+    margin-top: 5px;
+}
+
+form#right #remember_div label {
+    position: relative;
+    top: -2px;
+}

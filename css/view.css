@@ -1,0 +1,56 @@
+h3 {
+    margin-top: 5px;
+}
+
+#meta {
+    margin-top: 5px;
+}
+
+#users_replies {
+    margin-top: 30px;
+}
+
+#users_replies #left_col,
+#users_replies #replies_wrapper {
+    float: left;
+}
+
+#users_replies #left_col {
+    width: 110px;
+}
+
+#users_replies #replies_wrapper {
+    width: 600px;
+    margin-left: 10px;
+}
+
+#users_replies #replies_wrapper #reply_form {
+    margin-top: 10px;
+}
+
+#users_replies #replies_wrapper #reply_form label {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#users_replies #replies_wrapper #reply_form textarea {
+    margin-top: 3px;
+    padding: 5px;
+    width: 100%;
+}
+
+#users_replies #replies_wrapper #reply_form input {
+    margin-top: 3px;
+}
+
+#users_replies #replies_wrapper #reply_form input[type="submit"] {
+    margin-top: 7px;
+}
+
+#error_message {
+    margin-top: 10px;
+}
+
+#log_in {
+    margin-top: 10px;
+}

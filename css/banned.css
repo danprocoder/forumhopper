@@ -1,0 +1,12 @@
+#content {
+    font-size: 16px;
+}
+
+#content div {
+    margin-top: 15px;
+}
+
+#content div img {
+    width: 230px;
+    height: 230px;
+}
