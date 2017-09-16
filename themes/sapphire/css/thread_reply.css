@@ -1,0 +1,82 @@
+.reply {
+    margin-bottom: 4px;
+    border: 1px solid #67717A;
+    border-radius: 2px;
+    background: #F9FDFE;
+}
+
+.reply .meta {
+    background: #67717A;
+    color: #fff;
+}
+
+.reply .meta a {
+    color: #7CD8F6;
+}
+
+.reply .meta a:hover {
+    color: #EE8A49;
+}
+
+.reply .meta .topic {
+    margin-bottom: 3px;
+}
+
+.reply .meta .row2  a {
+    font-weight: normal;
+}
+
+.reply .meta,
+.reply .content .options,
+.reply .content .text {
+    padding: 5px;
+}
+
+.reply .meta a,
+.reply .meta span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.reply .content .num_attachments {
+    background: url('../images/attachment.png') no-repeat 5px center;
+    background-size: 12px;
+    padding: 5px 5px 5px 20px;
+    font-size: 11px;
+    color: #7A8082;
+}
+
+.reply .content .options a {
+    font-size: 11px;
+}
+
+.reply .content .attachments {
+    background: #EBF1F6;
+}
+
+.reply .content .attachments li {
+    margin-top: 2px;
+    border-top: 1px solid #DDE5EC;
+    padding: 5px;
+}
+
+.reply .content .attachments li div {
+    padding-left: 17px;
+}
+
+.reply .content .attachments h5 {
+    padding: 3px 5px;
+}
+
+.reply .content .attachments li div.filename {
+    background: url('../images/attachment.png') no-repeat left center;
+    background-size: 12px;
+}
+
+.reply .content .attachments .download_link {
+    font-size: 11px;
+}
+
+.reply .content .options a {
+    margin-right: 10px;
+}

@@ -1,0 +1,68 @@
+body {
+    font-family: Tahoma;
+    color: #333333;
+    font-size: 13px;
+    background-color: #E5EBF0;
+}
+
+input {
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #1A7FA0;
+}
+
+a:hover {
+    color: #BF6428;
+}
+
+#pages {
+    margin-top: 10px;
+}
+
+#pages .page {
+    margin-right: 13px;
+}
+
+#pages a.page:hover {
+    text-decoration: underline;
+}
+
+label.bold {
+    font-size: 11px;
+    font-weight: bold;
+    color: #777777;
+}
+
+span.error {
+    font-size: 11px;
+    font-weight: normal;
+    color: #ef0000;
+}
+
+select,
+.textfield,
+textarea {
+    font-family: Tahoma;
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #C6D1D8;
+    border-radius: 2px;
+}
+
+select:focus,
+.textfield:focus,
+textarea:focus {
+    border-color: #AAB8C1;
+}
+
+label:hover {
+    color: #555555;
+}
+
+#footer {
+    border-top: 1px solid #DDE5EC;
+}

@@ -1,0 +1,10 @@
+#options {
+    border: 1px solid #efefef;
+    padding: 5px;
+}
+
+#options a {
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}

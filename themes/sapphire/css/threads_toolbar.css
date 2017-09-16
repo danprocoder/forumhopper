@@ -1,0 +1,12 @@
+#options {
+    text-align: right;
+    border-top: 1px solid #DAE1E6;
+    border-bottom: 1px solid #DAE1E6;
+    padding: 7px 0;
+}
+
+#options a {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}

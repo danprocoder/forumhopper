@@ -1,0 +1,14 @@
+#nav #nav_left #nav_menu a {
+    color: #ccc;
+    margin-left: 20px;
+}
+
+#nav #nav_left #nav_menu a:hover {
+    color: #f9f9f9;
+}
+
+#nav #nav_left #nav_menu a.active {
+    color: #cc3300;
+    font-weight: bold;
+    padding-bottom: 8px;
+}

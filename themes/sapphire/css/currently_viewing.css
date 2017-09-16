@@ -1,0 +1,16 @@
+#currently_viewing {
+    margin-top: 30px;
+    border: 1px solid #67717A;
+    border-radius: 2px;
+    background: #F9FDFE;
+}
+
+#currently_viewing h5 {
+    background: #67717A;
+    color: #fff;
+    padding: 5px;
+}
+
+#currently_viewing p {
+    padding: 5px;
+}

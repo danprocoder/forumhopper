@@ -1,0 +1,34 @@
+#right ul {
+    margin-top: 10px;
+    border: 1px solid #DAE1E6;
+    border-bottom: none;
+}
+
+#right ul li {
+    font-size: 11px;
+    font-weight: bold;
+    border-bottom: 1px solid #DAE1E6;
+}
+
+#right ul li a {
+    display: block;
+    padding: 7px;
+}
+
+#right ul li a:hover {
+    background: #DAE1E6;
+}
+
+#right ul li a span.wrapper {
+    height: 15px;
+    line-height: 15px;
+}
+
+#right ul li a span.threads_count {
+    float: right;
+    width: 15px;
+    text-align: center;
+    background: #9CADBB;
+    border-radius: 1px;
+    color: #fff;
+}

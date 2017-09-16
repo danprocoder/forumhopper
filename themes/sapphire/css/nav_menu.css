@@ -1,0 +1,18 @@
+#nav #nav_left #nav_menu a {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #7F868B;
+    display: inline-block;
+}
+
+#nav #nav_left #nav_menu a:hover {
+    color: #4F555A;
+}
+
+#nav #nav_left #nav_menu a.active {
+    padding: 7px 8px;
+    background-color: #cc3300;
+    color: #ffffff;
+    border-radius: 3px;
+}

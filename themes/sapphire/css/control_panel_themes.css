@@ -1,0 +1,11 @@
+#current_theme #current_theme_span {
+    color: #647583;
+}
+
+#themes h5 {
+    background: #67717A;
+    padding: 5px;
+    color: #fff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}

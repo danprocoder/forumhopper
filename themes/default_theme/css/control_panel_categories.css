@@ -1,0 +1,28 @@
+#table_wrapper #theader {
+    background: #D28A49;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#table_wrapper #body {
+    border-left: 1px solid #FADDC3;
+    border-right: 1px solid #FADDC3;
+    border-bottom: 1px solid #FADDC3;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#table_wrapper #body .row {
+    border-bottom: 1px solid #F9EADC;
+}
+
+#table_wrapper #body .row .col1 {
+    color: #88796C;
+}
+
+#table_wrapper #info {
+    font-size: 10px;
+    color: #888;
+    margin-top: 4px;
+}

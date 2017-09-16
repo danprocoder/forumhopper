@@ -1,0 +1,36 @@
+#side_nav h5 {
+    border-bottom: 1px solid #999999;
+    color: #999999;
+    background: #f9f9f9;
+    padding: 3px;
+}
+
+#side_nav .menu {
+    margin-bottom: 7px;
+    border: 1px solid #999999;
+}
+
+#side_nav ul li {
+    line-height: 28px;
+    height: 28px;
+}
+
+#side_nav ul li a {
+    display: block;
+    width: 100%;
+    height: 28px;
+    color: #777777;
+    text-indent: 3px;
+}
+
+#side_nav ul li a:hover {
+    background: #EAEAE9;
+    color: #333333;
+}
+
+#side_nav ul li a.active {
+    color: #333333;
+    font-weight: bold;
+    background: none;
+    font-size: 12px;
+}

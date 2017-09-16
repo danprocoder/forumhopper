@@ -1,0 +1,80 @@
+.reply {
+    margin-bottom: 4px;
+    border-radius: 3px;
+}
+
+.reply:nth-child(odd) {
+    background: #F9FDFE;
+    border: 1px solid #E2E8EA;
+}
+
+.reply:nth-child(even) {
+    background: #FEFEF9;
+    border: 1px solid #E8E8E0;
+}
+
+.reply .meta,
+.reply .content {
+    padding: 5px;
+}
+
+.reply .meta {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.reply .meta a,
+.reply .meta span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.reply .meta .creation_info a,
+.reply .meta .creation_info span {
+    font-weight: normal;
+}
+
+.reply .topic {
+    margin-bottom: 5px;
+}
+
+.reply .content .text {
+    margin-top: 5px;
+}
+
+.reply .content .attachments,
+.reply .content .options {
+    margin-top: 15px;
+}
+
+.reply .content .attachments {
+    background: #FEFDD2;
+    padding: 5px;
+}
+
+.reply .content .attachments ul {
+    margin-top: 7px;
+}
+
+.reply .content .attachments ul li {
+    margin-top: 2px;
+    font-size: 12px;
+    padding-left: 15px;
+    background: url('../images/attachment.png') no-repeat left center;
+    background-size: 12px;
+}
+
+.reply .content .attachments .download_link {
+    margin-left: 10px;
+}
+
+.reply .content .options a {
+    margin-right: 10px;
+}
+
+.reply .num_attachments {
+    background: url('../images/attachment.png') no-repeat 5px center;
+    background-size: 12px;
+    padding: 5px 5px 5px 20px;
+    font-size: 11px;
+    color: #7A8082;
+}

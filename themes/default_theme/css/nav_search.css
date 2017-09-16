@@ -1,0 +1,40 @@
+#nav_search #search-box-wrapper {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+#nav_search #search-box-wrapper input {
+    border: none;
+    outline: none;
+    float: left;
+    height: 25px;
+    background: none;
+}
+
+#nav_search #search-box-wrapper input[type="text"] {
+    width: 160px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+#nav_search #search-box-wrapper #search-btn {
+    width: 25px;
+    background: url('../images/button-search.png') center center no-repeat;
+    cursor: pointer;
+}
+
+#nav_search #radio-wrapper {
+    margin-top: 5px;
+}
+
+#nav_search #radio-wrapper span {
+    margin-right: 7px;
+}
+
+#nav_search #radio-wrapper span label {
+    margin-left: 2px;
+    position: relative;
+    top: -2px;
+}
