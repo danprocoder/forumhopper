@@ -5,6 +5,11 @@ define( 'SETUP_TOTAL_STEPS', 4 );
 
 define('PAGE_URL', $config['http_host'].'/admin/setup.php');
 
+if (!file_exists(TMP_DIR))
+{
+	mkdir(TMP_DIR);
+}
+
 // used to track user's current steps and stores error messages.
 $setup = null;
 if (isset($_COOKIE['setup']) && file_exists(TMP_DIR.'/'.$_COOKIE['setup'].'.txt'))
