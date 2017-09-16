@@ -1,0 +1,27 @@
+#left #inner {
+    margin-top: 10px;
+}
+
+#left #inner #side_nav,
+#left #inner #main_content {
+    float: left;
+}
+
+#left #inner #main_content {
+    width: 570px;
+}
+
+#left #inner form .textfield,
+#left #inner form .file_field {
+    margin-top: 3px;
+}
+
+#left #inner form > div.note {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#left #inner form .checkbox {
+    position: relative;
+    top: 2px;
+}

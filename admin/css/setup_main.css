@@ -1,0 +1,149 @@
+html {
+    padding-bottom: 30px;
+}
+
+body {
+    font-family: Arial;
+    font-size: 14px;
+    background: #E9F4F1;
+}
+
+body, form, h1, ul, li, input , p{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+.error {
+    font-size: 12px;
+    font-weight: normal;
+    color: #e30;
+}
+
+span.error {
+    margin-left: 10px;
+}
+
+body > div {
+    width: 600px;
+    margin: 50px auto 0 auto;
+    background: #F4FBF9;
+    border: 1px solid #E0EDE9;
+    border-radius: 5px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    padding: 10px 30px 5px 30px;
+    border-bottom: 1px solid #E9F2EF;
+    background: #FAFDFC;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+form {
+    padding: 20px 30px 30px 30px;
+}
+
+form > div {
+    margin-bottom: 15px;
+}
+
+form > div:last-child {
+    margin-bottom: 0;
+}
+
+form > div > label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #444;
+}
+
+form > div#instruction {
+    color: #9BAFAA;
+}
+
+form > div#instruction .error {
+    margin-top: 5px;
+}
+
+form  label {
+    cursor: pointer;
+}
+
+#steps {
+    margin-top: 30px;
+    font-size: 11px;
+}
+
+#steps span {
+    cursor: default;
+}
+
+#steps span.sep {
+    color: #CADFD9;
+    margin: 0 3px;
+    position: relative;
+    top: -1px;
+}
+
+#steps span.step {
+    color: #999999;
+}
+
+#steps span.step.active {
+    color: #333333;
+    font-weight: bold;
+}
+
+.textfield {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #E5EBE9;
+    border-radius: 2px;
+    background: #FAFDFC;
+    margin-top: 5px;
+}
+
+form .textfield:focus {
+    border-color: #F5D894;
+    background-color: #FFFFFF;
+}
+
+form input[type="submit"] {
+    padding: 8px 17px;
+    font-size: 14px;
+    background: #6EC1AA;
+    color: #ffffff;
+    border: 1px solid #5EAD98;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 0 #9DE2CF;
+    outline: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #68BAA3;
+}
+
+form input[type="submit"]:active {
+    background: #5FAE98;
+}
+
+.clearfix {
+    clear: both;
+}

@@ -1,0 +1,11 @@
+#cp_form > div {
+    margin-bottom: 10px;
+}
+
+#cp_form > div .textfield {
+    width: 100%;
+}
+
+#cp_form > div#error_div {
+    margin-bottom: 0;
+}

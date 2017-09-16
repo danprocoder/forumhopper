@@ -1,0 +1,42 @@
+#user_info img,
+#user_info #beside_img {
+    float: left;
+}
+
+#user_info img {
+    width: 70px;
+    height: 70px;
+}
+
+#user_info #beside_img {
+    margin-left: 7px;
+}
+
+#user_info #beside_img > div {
+    margin-top: 5px;
+}
+
+#user_info #beside_img b {
+    font-size: 12px;
+}
+
+#user_info #beside_img #username {
+    font-weight: bold;
+}
+
+#categories ul {
+    margin-top: 1px;
+}
+
+#categories ul li {
+    margin-top: 2px;;
+}
+
+#categories ul li input {
+    cursor: pointer;
+}
+
+#categories ul li label {
+    position: relative;
+    top: -1px;
+}

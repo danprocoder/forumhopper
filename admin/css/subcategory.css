@@ -1,0 +1,23 @@
+h3 {
+    margin-top: 5px;
+}
+
+#subcat_form {
+    margin-top: 10px;
+}
+
+#subcat_form > div {
+    margin-top: 10px;
+}
+
+#subcat_form > div .textfield {
+    width: 100%;
+    margin-top: 3px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
