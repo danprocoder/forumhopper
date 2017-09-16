@@ -1,0 +1,32 @@
+#outer {
+    margin-top: 10px;
+}
+
+#outer #side_nav,
+#outer #settings_form_wrapper {
+    float: left;
+}
+
+#outer #settings_form_wrapper {
+    width: 570px;
+}
+
+#outer #settings_form_wrapper form > div {
+    margin-bottom: 10px;
+}
+
+#outer #settings_form_wrapper .textfield {
+    width: 100%;
+}
+
+#outer #settings_form_wrapper .textfield {
+    margin-top: 3px;
+}
+
+form table tr td {
+    padding-bottom: 10px;
+}
+
+form table tr td.col2 {
+    padding-left: 30px;
+}

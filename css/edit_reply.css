@@ -1,0 +1,16 @@
+h3 {
+    margin-top: 5px;
+}
+
+#edit_form {
+    margin-top: 30px;
+}
+
+#edit_form textarea {
+    width: 100%;
+    margin-top: 3px;
+}
+
+#edit_form > div {
+    margin-bottom: 5px;
+}

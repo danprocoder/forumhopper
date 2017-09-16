@@ -1,0 +1,20 @@
+h3 {
+    margin-top: 5px;
+}
+
+#left #top {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+#cat-hierarchy {
+}
+
+#options {
+    margin-top: 10px;
+}
+
+div.no_thread,
+p#page_not_found {
+    margin-top: 15px;
+}

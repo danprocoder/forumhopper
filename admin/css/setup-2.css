@@ -1,0 +1,28 @@
+#themes {
+    margin-top: 5px;
+}
+
+#themes label {
+    position: relative;
+    top: -2px;
+    left: 5px;
+    color: #575757;
+}
+
+#themes ul,
+#themes img {
+    float: left;
+}
+
+#themes ul {
+    width: 200px;
+}
+
+#themes ul li {
+    margin-bottom: 4px;
+}
+
+#themes img {
+    width: 340px;
+    height: 225px;
+}

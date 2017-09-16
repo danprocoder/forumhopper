@@ -1,0 +1,53 @@
+#table_wrapper {
+    width: 100%;
+}
+
+#category_table .col {
+    float: left;
+}
+
+#category_table .col1 {
+    width: 150px;
+    padding: 0 6px;
+}
+
+#category_table .col2 {
+    width: 340px;
+    text-overflow: ellipsis;
+}
+
+#category_table #theader,
+#category_table .row {
+    padding: 6px 0;
+    line-height: 150%;
+    cursor: default;
+}
+
+#category_table #theader {
+    font-weight: bold;
+}
+
+#category_table #body {
+    height: 180px;
+    overflow-y: auto;
+    font-size: 12px;
+}
+
+#category_table .row {
+    position: relative;
+}
+
+#category_table .row .remove {
+    color: #e20;
+    font-size: 11px;
+    position: absolute;
+    right: 6px;
+}
+
+#category_table .row .remove:hover {
+    text-decoration: underline;
+}
+
+#cp_form #finish_btn {
+    float: right;
+}

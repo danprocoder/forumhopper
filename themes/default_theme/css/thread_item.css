@@ -1,0 +1,45 @@
+.item {
+    padding: 5px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
+
+.item:nth-child(odd) {
+    background: #FAF5EF;
+    border: 1px solid #E8E8E0;
+}
+
+.item:nth-child(even) {
+    background: #fbfbfb;
+    border: 1px solid #E2E8EA;
+}
+
+.item.thread_item .topic a,
+.item.sub_category_item .name a,
+.item.category_item .name a{
+    font-weight: bold;
+}
+
+.item.thread_item .topic,
+.item.sub_category_item .name {
+    float:left;
+}
+
+.item.thread_item .creation_info {
+    float: left;
+}
+
+.item.thread_item .views_count,
+.item.thread_item .options,
+.item.sub_category_item .options {
+    float: right;
+}
+
+.item .options a {
+    margin-left: 12px;
+}
+
+.item .meta,
+.item .description {
+    margin-top: 5px;
+}

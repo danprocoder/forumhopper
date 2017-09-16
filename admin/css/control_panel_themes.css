@@ -1,0 +1,74 @@
+#theme_error {
+    margin-bottom: 10px;
+}
+
+#themes #grid {
+    margin-top: 7px;
+}
+
+#current_theme #current_theme_span {
+    font-size: 12px;
+}
+
+#current_theme img {
+    width: 300px;
+    height: 195px;
+    margin-top: 5px;
+}
+
+#themes {
+    margin-top: 30px;
+}
+
+#themes #grid .theme {
+    width: 275px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#themes #grid .theme:nth-child(even) {
+    margin-right: 0;
+}
+
+#themes #grid .theme .screenshot,
+#themes #grid .theme .no_screenshot,
+#themes #grid .theme .theme_right {
+    float: left;
+}
+
+#themes #grid .theme .screenshot img,
+#themes #grid .theme .no_screenshot {
+    width: 150px;
+    height: 115px;
+}
+
+#themes #grid .theme .meta {
+    margin-top: 7px;
+}
+
+#themes #grid .theme .no_screenshot {
+    text-align: center;
+    line-height: 115px;
+    border: 1px solid #dfdfdf;
+    font-size: 11px;
+}
+
+#themes #grid .theme .screenshot .view_full {
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+#themes #grid .theme .theme_right {
+    margin-left: 7px;
+}
+
+#themes #grid .theme .theme_right .options li {
+    margin-bottom: 7px;
+    font-size: 12px;
+}
+
+#themes #grid .theme .name {
+    font-weight: bold;
+    font-size: 13px;
+}

@@ -1,0 +1,18 @@
+#left_small,
+#right_large {
+    float: left;
+}
+
+#left_small {
+    width: 150px;
+}
+
+#left_small #profile_pic_wrapper img {
+    width: 150px;
+    height: 150px;
+}
+
+#right_large {
+    width: 550px;
+    padding-left: 20px;
+}

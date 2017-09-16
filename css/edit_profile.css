@@ -1,0 +1,36 @@
+#left_small #file_chooser_wrapper {
+    margin-top: 10px;
+}
+
+#left_small #file_chooser_wrapper input {
+    margin-top: 5px;
+}
+
+#left_small input {
+    width: 100%;
+}
+
+#edit_form {
+    margin-top: 10px;
+}
+
+#right_large > div {
+    margin-bottom: 10px;
+}
+
+#right_large > div select {
+    margin-right: 5px;
+}
+
+#right_large > div select.birthdate {
+    margin-top: 5px;
+}
+
+#right_large > div select#sex {
+    margin-left: 5px;
+}
+
+#right_large > div .textfield {
+    width: 100%;
+    margin-top: 5px;
+}

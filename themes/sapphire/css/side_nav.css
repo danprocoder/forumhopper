@@ -1,0 +1,30 @@
+#side_nav .menu {
+    margin-bottom: 7px;
+    border: 1px solid #67717A;
+    border-radius: 1px;
+}
+
+#side_nav h5 {
+    padding: 5px 3px;
+}
+
+#side_nav h5 {
+    background: #67717A;
+    color: #fff;
+}
+
+#side_nav ul li {
+    border-top: 1px solid #DAE1E6;
+}
+
+#side_nav ul li a {
+    display: block;
+    padding: 6px 3px;
+}
+
+#side_nav ul li a.active {
+    background: #DAE1E6;
+    color: #454545;
+    font-weight: bold;
+    font-size: 11px;
+}

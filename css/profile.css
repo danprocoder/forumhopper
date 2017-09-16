@@ -1,0 +1,44 @@
+h3 span {
+    font-weight: normal;
+}
+
+#left #edit_link {
+    margin-top: 3px;
+}
+
+#left #user_content {
+    margin-top: 15px;
+}
+
+#left_small ul li {
+    margin-top: 5px;
+}
+
+#left_small ul li span {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+#left_small ul li div {
+    margin-top: 2px;
+}
+
+#left_small ul li.online {
+    color: green;
+}
+
+#left_small ul li.online b {
+    font-size: 14px;
+}
+
+#left #ban_option {
+    margin-top: 5px;
+}
+
+#left #ban_option a {
+    color: #f10;
+}
+
+#left #ban_option a:hover {
+    text-decoration: underline;
+}

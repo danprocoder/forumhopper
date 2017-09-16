@@ -1,0 +1,27 @@
+#category_table {
+    border: 1px solid #67717A;
+    border-radius: 1px;
+}
+
+#category_table #theader {
+    background: #67717A;
+    color: #fff;
+}
+
+#category_table #body .row {
+    border-bottom: 1px solid #DAE1E6;
+}
+
+#category_table #body .row:hover {
+    background: #DAE1E6;
+}
+
+#category_table #body .row .col1 {
+    color: #647583;
+}
+
+#table_wrapper #info {
+    font-size: 11px;
+    color: #647583;
+    margin-top: 3px;
+}
