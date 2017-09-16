@@ -5,6 +5,11 @@ define('CONFIG_TEMPLATE_PATH', CONFIG_DIR.'/config_template.php');
 
 define('SETUP_TOTAL_STEPS', 4);
 
+if (!file_exists(TMP_DIR))
+{
+	mkdir(TMP_DIR);
+}
+
 if (!(isset($_COOKIE['setup']) && file_exists(TMP_DIR.'/'.$_COOKIE['setup'].'.txt')))
 {
 	header('Location: ' . ADMIN_URL . '/setup.php');
